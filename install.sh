@@ -25,6 +25,7 @@ rm -rf "$PLUGINS_DIR"
 # Creates root directories if they don't exist
 mkdir -p "$HOME/.config"
 mkdir -p "$PLUGINS_DIR"
+mkdir -p "$BIN_DIR"
 
 # Create symlinks for the dotfiles
 ln -s "$SCRIPT_DIR/.aliases" "$HOME/.aliases"
